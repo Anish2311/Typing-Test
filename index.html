@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/tweakpane@3.1.0/dist/tweakpane.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(37, 37, 37);">
+    <div class = "container">
+        <div class="content">
+            <div class="scores">
+                <p class="heading">Typing_Test</p>
+                <div id="speed" class="output">
+                    <p>Speed</p>
+                    <span>0</span>
+                </div>
+                <div  class="output">
+                    <p>Accuracy</p>
+                    <span id="accuracy">0</span>
+                </div>
+                <div id="score" class="output">
+                    <p>Score</p>
+                    <span>0</span>
+                </div>
+            </div>
+            <div class="prompt">History of writing - bing     \/</div>
+            <div class="textContainer">
+                <p class="text" id="text">Typing is the process of writing or inputting text by pressing keys on a typewriter, computer keyboard, cell phone, or calculator. It can be distinguished from other means of text input, such as handwriting and speech recognition. Text can be in the form of letters, numbers and other symbols. The world's first typist was Lillian Sholes from Wisconsin, the daughter of Christopher Sholes, who invented the first practical typewriter.Typing is the process of writing or inputting text by pressing keys on a typewriter, computer keyboard, cell phone, or calculator. It can be distinguished from other means of text input, such as handwriting and speech recognition. Text can be in the form of letters, numbers and other symbols. The world's first typist was Lillian Sholes from Wisconsin, the daughter of Christopher Sholes, who invented the first practical typewriter.</p>
+            </div>
+            <textarea id="input" class="input"> dkh zkdf </textarea>
+        </div>
+        <div id="mistakes" class="mistakes"></div>
+    </div>
+    <script src="defining.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
