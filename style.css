@@ -49,7 +49,7 @@ textarea {
     color: rgba(150, 150, 150);
     padding: 1rem;
     overflow-y: hidden;
-    border: 0.2rem white solid;
+    /* border: 0.2rem white solid; */
     overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@ textarea {
     font-weight: 100;
     position: relative;
     top: -1rem;
-    /* hyphens: auto;f */
+    /* hyphens: auto; */
     /* word-wrap: break-word; */
 }
 
